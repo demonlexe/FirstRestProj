@@ -1,1 +1,27 @@
 GET http://localhost:3000/fruits
+
+###
+
+GET http://localhost:3000/fruits/620a8bdd102b5e32b5deeab6
+
+###
+POST http://localhost:3000/fruits
+Content-Type: application/json
+
+{
+    "name": "Apple",
+    "fruitOrVeg": "fruit"
+}
+
+###
+
+DELETE http://localhost:3000/fruits/620a8c1d102b5e32b5deeab9
+
+###
+
+PATCH http://localhost:3000/fruits/620a8c1d102b5e32b5deeab9
+Content-Type: application/json
+
+{
+    "name": "Banana"
+}
